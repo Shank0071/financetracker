@@ -1,0 +1,21 @@
+.transactionField {
+    background-color: whitesmoke;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: green;
+    display: grid;
+    gap: 2rem;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+}
+
+
+.transactionField input:focus {
+    outline: none;
+}
+
+.transactionField input {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
